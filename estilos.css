@@ -27,6 +27,13 @@ div {
 }
 a{
   text-decoration:none !important;
+  color:white !important;
+}
+.reservaa{
+  color: #173227 !important;
+}
+.reservaa:hover{
+  color: white !important;
 }
 .ver {
   display: none;
