@@ -1,0 +1,163 @@
+
+.btn btn-outline-primary {
+  display: none;
+}
+.ver {
+  display: none;
+}
+.nover {
+  display: block;
+  margin-left: 15px;
+  margin-top: -15px;
+  margin-right: 15px;
+}
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+}
+::after, ::before {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+a{
+  text-decoration:none !important;
+}
+.ver {
+  display: none;
+}
+.nover {
+  display: block;
+  margin-left: 15px;
+  margin-top: -15px;
+  margin-right: 15px;
+}
+.accordion-button:not(.collapsed){
+  color: #1d4434 !important;
+}
+.form-check-input:checked[type=radio]{
+background-color: #1d4434 !important;
+border-color: #1d4434 !important;
+}
+.accordion{
+  --bs-accordion-active-bg:#c6e2d7 !important;
+  --bs-accordion-active-color: #a8cebe !important;
+  --bs-accordion-btn-focus-border-color: #a8cebe !important;
+}
+.collapse {
+  display: block;
+}
+.nav-link {
+  margin-left: 3%;
+}
+.row{
+  font-size: 18px;
+}
+#logo {
+  margin-left: 30%;
+  width: 120px;
+}
+h1 {
+  font-size: 100px;
+  font-family: 'Zen Dots', cursiva;
+
+}
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#pc{
+  height: 100%;
+}
+
+p{
+  font-size: 16px;
+}
+.img-fluid{
+width: 100%;
+}
+.micolor{
+  background-color:#e2b1b4;
+}
+
+.micolor2{
+  background-color:#76a469;
+}
+
+.micolor3{
+  background-color:#173227;
+}
+
+@media screen and (min-width: 720px) {
+
+  .marginb{
+    margin-left: 95px;
+  }
+
+  .list-unstyled {
+    display: none;
+  }
+
+  .nover {
+    display: none;
+  }
+  .ver {
+    display: block;
+    margin-top: -25px;
+  }
+}
+@media screen and (max-width: 575px) {
+
+  .marginb{
+    margin-left: 40px;
+  }
+
+  .achicar {
+    display: none;
+  }
+  .ver {
+    display: block;
+  }
+  .nover {
+    display: none;
+  }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+  .nav-link:hover {
+    color: black;
+  }
+
+  .list-unstyled {
+    display: none;
+  }
+  .buttonp{
+    width: 120px !important;
+    height: 50px !important;
+  }
+}
