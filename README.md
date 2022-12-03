@@ -1,2 +1,2 @@
 # viverowalle
-https://github.com/julibdr/viverowalle.git
+https://julibdr.github.io/viverowalle/ 
